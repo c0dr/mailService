@@ -1,0 +1,19 @@
+<mjml>
+    <mj-body>
+        <mj-section>
+            <mj-column>
+                <mj-image width="100px" src="https://media.giphy.com/media/JpG2A9P3dPHXaTYrwu/giphy.gif"></mj-image>
+                <mj-divider border-color="#F45E43"></mj-divider>
+                <mj-text font-size="20px" font-weight="400" color="#F45E43" align="center" font-family="helvetica">Thank
+                    you for your order
+                </mj-text>
+                <mj-text font-size="12px" font-weight="200" color="#F45E43" align="center" font-family="helvetica">
+                    <p>Dear Mr. <span th:text="${firstname}"></span> <span th:text="${lastname}"></span>, </p>
+                    <p>We will soon send you a package with some stuff.</p>
+                    <p>We hope you like it and give us some more money for some more stuff again.</p>
+                    <p><strong>kthxbye</strong></p>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
